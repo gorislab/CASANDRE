@@ -44,4 +44,4 @@ Function used to calculate likelihood of each choice option in the 2-AFC “task
 
 
 Link to preprint: https://www.biorxiv.org/content/biorxiv/early/2021/12/22/2021.12.17.473249.full.pdf
-Read-me written by Zoe Boundy-Singer (zoebsinger@utexas.edu) 04/04/2022
+Read-me written by Zoe Boundy-Singer (zoebsinger@utexas.edu) 04/04/2022. 
