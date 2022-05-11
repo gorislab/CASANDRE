@@ -1,0 +1,75 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2636
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Bold;\f1\fnil\fcharset0 Menlo-Regular;\f2\fnil\fcharset0 Menlo-Italic;
+}
+{\colortbl;\red255\green255\blue255;\red251\green2\blue7;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\cssrgb\c100000\c14913\c0;\cssrgb\c0\c0\c0;}
+\margl1440\margr1440\vieww21200\viewh18480\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\b\fs24 \cf0 CASANDRE package
+\f1\b0 \
+\
+This package contains example template script code to process psychophysical data, fit the Confidence-AS-A-Noisy-DecisionReliabilityEstimate (CASANDRE) model to an example dataset, plot model fits to an example dataset, illustrate a recovery analysis, and illustrate model behavior. \
+\
+
+\f0\b Included:\
+\
+Scripts:
+\f1\b0 \
+\cf2 sortAdlerMa2018Expt1.m\
+fitAdlerMa2018.m\
+recoveryAnalysis.m\
+plotModelBehavior.m\cf0 \
+\
+
+\f0\b Functions:\
+
+\f1\b0 \cf2 getLlhChoice.m\
+getLlhChoiceB.m\cf0 \
+\
+
+\f0\b Data:
+\f1\b0 \
+\cf2 Adler_2018_Expt1-3.mat \cf0 (Downloaded from the confidence database https://osf.io/s46pr/; Citation: WT Adler, WJ Ma. (2018). Comparing Bayesian and non-Bayesian accounts of human confidence reports. PLOS Computational Biology. 14(11): e1006572. https://doi.org/10.1371/journal. pcbi.1006572)\
+\
+\cf2 Adler_2018_Expt1_sorted.mat \cf0 (Sorted data, original downloaded from the confidence database https://osf.io/s46pr/; Citation: WT Adler, WJ Ma. (2018). Comparing Bayesian and non-Bayesian accounts of human confidence reports. PLOS Computational Biology. 14(11): e1006572. https://doi.org/10.1371/journal. pcbi.1006572) This file contains CASANDRE model fits to data. [Note: \cf2 Adler_2018_Expt1_sorted_ASYM_CC.mat \cf3 contains CASANDRE fits with asymmetric confidence criteria.]\cf0 \
+\
+\
+
+\f0\b File description:
+\f1\b0 \
+\cf2 sortAdlerMa2018Expt1.m \cf0  
+\f2\i \
+Template code to sort confidence data into one \'91trial\'92 structure per experiment. This specific example sorts data from Expt 1 of Adler and Ma (2018). Note: this template works well for data from the confidence database saved in .csv formatting.\
+
+\f1\i0 \
+\cf2 fitAdlerMa2018.m	
+\f2\i \cf0 \
+Fit CASANDRE to empirical data. This specific example fits CASANDRE to Expt 1 from Adler & Ma (2018). \
+
+\f1\i0 \
+\cf2 recoveryAnalysis.m \cf0 \
+
+\f2\i Generates synthetic data from CASANDRE and fits CASANDRE to these data.  \
+
+\f1\i0 \
+\cf2 plotModelBehavior.m \cf0 \
+
+\f2\i Illustrates key aspects of CASANDRE for a given set of model parameters including primary decision and confidence variable distributions, choice likelihood-functions, and psychometric and confidence functions split by confidence judgment or primary decision correctness respectively. \
+
+\f1\i0 \
+\cf2 getLlhChoice.m\cf0 \
+
+\f2\i Function used to calculate likelihood of each choice option in 2-AFC tasks with a single fixed decision criterion for a given stimulus strength. Works for an arbitrary number of confidence rating levels. (Note: this is the key piece of code needed to use model)\
+
+\f1\i0 \
+\cf2 getLlhChoiceB.m\
+
+\f2\i \cf0 Function used to calculate likelihood of each choice option in the 2-AFC \'93task B\'94 of Adler and Ma (2018) for a given stimulus strength. Works for an arbitrary number of confidence rating levels.
+\f1\i0 \
+\
+\
+\
+Link to preprint: https://www.biorxiv.org/content/biorxiv/early/2021/12/22/2021.12.17.473249.full.pdf\
+Read-me written by Zoe Boundy-Singer (zoebsinger@utexas.edu) 04/04/2022\
+}
