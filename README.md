@@ -42,6 +42,5 @@ getLlhChoiceB.m
 Function used to calculate likelihood of each choice option in the 2-AFC “task B” of Adler and Ma (2018) for a given stimulus strength. Works for an arbitrary number of confidence rating levels.
 
 
-
-Link to preprint: https://www.biorxiv.org/content/biorxiv/early/2021/12/22/2021.12.17.473249.full.pdf
-Read-me written by Zoe Boundy-Singer (zoebsinger@utexas.edu) 04/04/2022. 
+Link to published manuscript: https://www.nature.com/articles/s41562-022-01464-x?utm_campaign=related_content&utm_source=SOCIAL&utm_medium=communities
+Read-me written by Zoe Boundy-Singer (zoebsinger@utexas.edu) 04/04/2022. Updated 11/18/2022.
